@@ -5,10 +5,7 @@ zRAM is a module of the Linux/Android kernel, it increases performance by avoidi
 ## Why use zRAM ?
 Unlike what some myths claim zRAM does not slow down your device, neither affect battery life. It uses extremely fast algorithms that can compress/decompress large amount of data in a fraction of second. It is very useful for android by helping to keep background apps open while multitasking. It can be useful even on high RAM devices with 6-8GB RAM and in older phones it can offer a signficant performance boost.
 ## How to use
-### In order to change the config without reinstalling navigate to
-`/data/adb/swap-config.txt
-- Put 0 to disable SWAP
-- Put 1 to enable SWAP`
+### In order to change the config you need remove & reinstall the module
 
 ## Changelog
 *v1.3 20.08.2019*
